@@ -4,7 +4,7 @@ let connection;
 
 function connect() {
     
-    connection = mongoose.createConnection(`mongodb+srv://kamaleshravi54:NwF4RV8neAPmPa9F@helpinghands.rtoaiou.mongodb.net/?retryWrites=true&w=majority&appName=HelpingHands`);
+    connection = mongoose.createConnection(`mongodb+srv://kamaleshravi54:kamaleshbala@helpinghands.rtoaiou.mongodb.net/?retryWrites=true&w=majority&appName=HelpingHands`);
 
     connection.on('open', () => {
         console.log("MongoDB Connected");
